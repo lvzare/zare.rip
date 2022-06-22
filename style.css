@@ -1,0 +1,78 @@
+:root {
+    --primary: rgb(15, 15, 15);
+    --secondary: rgb(10, 10, 10);
+    --borderP: rgb(107, 0, 156);
+}
+
+body {
+    background: var(--primary);
+}
+
+.wrapper {
+    border-radius: 5px;
+    padding: 25px;
+    background: var(--secondary);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+
+.wrapper span {
+    color: var(--borderP);
+    text-decoration: underline;
+}
+.wrapper span:hover {
+    cursor: pointer;
+}
+.wrapper .inf img {
+    
+    text-align: center;
+    height: 55px;
+    width: 230px;
+}
+.imgWrap {
+    display: flex;
+    justify-content: center;
+ 
+}
+.wrapper .av {
+    display: grid;
+    place-items: center;
+}
+.wrapper .av img {
+    border-radius: 5px;
+    border: 2px solid var(--borderP);
+
+}
+hr {
+    border: 1px solid var(--borderP);
+  }
+h1 {
+    color: white;
+    font-family: monospace;
+    font-weight: 100;
+    text-align: center;
+}
+h2 {
+    color: white;
+    font-family: monospace;
+    font-weight: 100;
+    text-align: center;
+}
+h3 {
+    color: white;
+    font-family: monospace;
+    font-weight: 100;
+    text-align: center;
+}
+p {
+    line-height: 1px;
+    color: white;
+    font-family: monospace;
+    font-weight: 100;
+    text-align: center;
+}
